@@ -15,7 +15,7 @@ export const config: WebdriverIO.Config = {
         platformName: "Android",
         deviceName: "RF8N91Y1QKM",
         automationName: "UiAutomator2",
-        app: "C:\\Users\\enrique.suarezg\\Documents\\resources\\ApiDemos-debug.apk"
+        app: "C:\\Users\\enrique.suarezg\\Documents\\resources\\General-Store.apk"
     }],
     //
     // ===================
@@ -144,8 +144,9 @@ export const config: WebdriverIO.Config = {
      * @param {Array.<String>} specs        List of spec file paths that are to be run
      * @param {Object}         browser      instance of created browser/device session
      */
-    // before: function (capabilities, specs) {
-    // },
+   //  before: function (capabilities, specs) {
+         
+   //  },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
